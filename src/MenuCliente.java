@@ -26,7 +26,6 @@ public class MenuCliente {
         }
     }
 
-
     /**
      * Imprime a crítica mais recente (último filme do ficheiro)
      *
