@@ -56,11 +56,11 @@ public class MenuPrincipal {
 
         }
         // CLIENTE
-        else if (tipoUtilizador.equals("CLIENTE")) {
-            LoginCliente.verificarCliente();
-        }
         else {
-            System.out.println("> Tipo de utilizador inválido.");
+            // CLIENTE entra sempre
+            LoginCliente.verificarCliente();
+            String[][] matriz = MenuAdmin.ficheiroParaMatriz("IMDV_Ficheiros/IMDV.csv");
+            MenuCliente.menu(matriz);
         }
     }
 }

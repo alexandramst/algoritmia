@@ -98,7 +98,9 @@ public class MenuCliente {
                     imprimirCriticaMaisRecente(matriz);
                     break;
 
-                case 6:
+                case 6: // Rescolver o Quiz - Com o número de respostas certas
+
+                    Quiz.resolverQuiz();
                     break;
                 case 7:
                     break;

@@ -54,7 +54,7 @@ public class EstudioPiorMedia {
             }
         }
 
-        // Mostrar mensagem do estúdio com a pior média
+        // Mensagem do estúdio com a pior média
         System.out.println("> O Estúdio com a pior média é " + piorEstudio + ". A sua média é de: " + piorMedia + ".");
     }
 }
