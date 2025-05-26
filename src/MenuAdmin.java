@@ -171,12 +171,14 @@ public class MenuAdmin {
                     break;
 
 
-                case 0: // Sair do Programa
+                case 0: //Encerrar o Programa - Imprimir Copyright
+
                     System.out.println("_*_*_*_*_*_ Encerrar o Programa _*_*_*_*_*_ ");
+                    ImprimirCopyright.imprimirCopyright();
                     break;
 
                 default: //Opção Inválida
-                    System.out.println("!!!!!!!!!!! Opção Inválida !!!!!!!!!!!");
+                    System.out.println("> Opção Inválida !!!!");
                     break;
 
             }

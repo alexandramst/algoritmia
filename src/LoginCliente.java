@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class LoginCliente {
 
+    /**
+     *
+     * Função que simula o registo do cliente
+     *
+     */
     public static void verificarCliente() {
 
         Scanner input = new Scanner(System.in);
@@ -25,7 +30,7 @@ public class LoginCliente {
 
         email = input.nextLine();
         System.out.println(">");
-        System.out.println("> Utilizador inserido com sucesso: " + nome + " | " + contacto + " | " + email);
+        System.out.println("> Utilizador Inserido com Sucesso: " + nome + " | " + contacto + " | " + email);
 
     }
 }
